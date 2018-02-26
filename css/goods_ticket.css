@@ -1,0 +1,274 @@
+div.goods_ticket{
+	width: 1190px;
+	height: 270px;
+	margin: 0px auto;
+	margin-bottom: 30px;
+}
+div.goods_ticket_item{
+	width: 790px;
+	height: 270px;
+	float: left;
+	background: #fff;
+}
+div.goods_ticket_title{
+	background:linear-gradient(90deg,#f03118,#e62910);
+}
+div.goods_ticket_item:last-child{
+	width: 390px;
+	margin-left: 10px;
+}
+div.goods_ticket_item div.goods_sale_item_title{
+	width: 790px;
+}
+div.goods_ticket_item:last-child div.goods_sale_item_title{
+	width: 390px;
+	background:linear-gradient(90deg,#4f629f,#5b5c95);
+}
+div.goods_sale_item_title div.JD_title_left{
+	width: 740px;
+	margin-left: 30px;
+}
+div.goods_ticket_item:last-child div.goods_sale_item_title div.JD_title_left{
+	width: 340px;
+}
+div.goods_sale_item_title div.JD_title_left a{
+	margin-left: 532px;
+}
+div.goods_ticket_item:last-child div.goods_sale_item_title div.JD_title_left a{
+	margin-left: 197px;
+}
+div.goods_ticket_title i.bg_left_top{
+	background-position: -190px -48px;
+}
+div.goods_ticket_item:last-child div.goods_sale_item_title i.bg_left_top{
+	background: url(../images/second_kill/sprite_sprite_coupon@1x.png) no-repeat;
+	background-position: -50px 0px;
+}
+div.goods_ticket_item div.goods_ticket_content{
+	width: 100%;
+	height: 215px;
+}
+div.goods_ticket_content ul{
+	width: 100%;
+	height: 205px;
+	padding-top: 10px;
+}
+div.goods_ticket_content ul li{
+	width: 182px;
+	height: 195px;
+	margin-left: 15px;
+	float: left;
+}
+div.goods_ticket_content ul li:last-child{
+	border-right:none;
+	width: 181px;
+}
+div.goods_ticket_content a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+div.goods_ticket_content div.GTC_left{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 177px;
+	border-top: 3px solid #e93524;
+	background: #fff;
+	color: #f10214;
+	z-index: 1;
+}
+div.GTC_left p.GTC_left_Prize{
+	font-size: 34px;
+	font-weight: bold;
+	padding-top: 2px;
+}
+div.GTC_left p.GTC_left_Prize span{
+	font-size: 10px;
+	margin-right: 4px;
+}
+div.GTC_left p.GTC_left_detail{
+	font-size: 12px;
+	width: 7em;
+	margin-bottom: 4px;
+	line-height: 18px;
+}
+div.GTC_left div.ticket{
+	width: 100%;
+	height: 63px;
+	background: #fff;
+	border-top: 3px dotted #e7e7e7;
+}
+div.GTC_left div.ticket p{
+	font-size: 12px;
+	height: 51px;
+	width: 91px;
+	padding-top: 12px;
+	line-height: 18px;
+	padding-left: 9px;
+	background: #e7e7e7;
+	color: #666666;
+}
+div.goods_ticket_content span.GTC_left_bottom{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 26px;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	background: #e93524;
+	line-height: 26px;
+}
+div.goods_ticket_content div.GTC_right{
+	position: absolute;
+	width: 140px;
+	height: 140px;
+	top: 10px;
+	left: 27px;
+	z-index: 0;
+	transition: 1s left;
+}
+div.goods_ticket_content ul li:hover div.GTC_right{
+	left: 42px;
+}
+div.goods_ticket_item:last-child div.goods_ticket_content{
+	position: relative;
+	width: 100%;
+	height: 215px;
+}
+div.goods_ticket_item:last-child div.goods_ticket_content ul{
+	width: 80px;
+	height: 8px;
+	padding: 0px;
+	position: absolute;
+	top: 190px;
+	left: 155px;
+}
+div.goods_ticket_item:last-child div.goods_ticket_content ul li{
+	width: 8px;
+	height: 8px;
+	margin: 0px;
+	margin-right: 10px;
+	position: relative;
+}
+div.goods_ticket_item:last-child div.goods_ticket_content ul li:last-child{
+	margin-right: 0px;
+}
+div.goods_ticket_item:last-child div.goods_ticket_content ul li a.first{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	z-index: 3;
+	background: #c7c7c7;
+}
+div.goods_ticket_item:last-child div.goods_ticket_content ul li a.first:hover{
+	background: #e21222;
+}
+div.goods_ticket_item:last-child div.goods_ticket_content ul li a:last-child{
+	position: absolute;
+	width: 390px;
+	height: 215px;
+	top: -190px;
+	left: -155px;
+	z-index:2;
+	background: #fff;
+	display: none;
+}
+div.goods_ticket_item:last-child div.goods_ticket_content ul li:first-child a:last-child{
+	display: block;
+}
+div.goods_ticket_item:last-child div.goods_ticket_content ul li:hover a:last-child{
+	display: block;
+}
+li#MI_me_02 a:last-child{
+	left: -173px;
+}
+li#MI_me_03 a:last-child{
+	left: -191px;
+}
+li#MI_me_04 a:last-child{
+	left: -209px;
+}
+li#MI_me_05 a:last-child{
+	left: -227px;
+}
+div.goods_ticket_item:last-child div.goods_ticket_content ul li a:last-child img{
+	position: absolute;
+	width: 200px;
+	height: 140px;
+	top: 25px;
+	left: 30px;
+}
+div.goods_ticket_item:last-child div.goods_ticket_content ul li a:last-child div{
+	position: absolute;
+	width: 122px;
+	height: 140px;
+	top: 25px;
+	right: 30px;
+}
+div.goods_ticket_item:last-child div.goods_ticket_content p.title{
+	color: #333;
+	font-size: 14px;
+	line-height: 18px;
+	word-spacing: 2px;
+	font-weight: bold;
+	font-family: "Microsoft YaHei";
+	margin-bottom: 5px;
+}
+div.goods_ticket_item:last-child div.goods_ticket_content p.describe{
+	font:12px/15px "Microsoft YaHei";
+	color: #999;
+}
+div.goods_ticket_item:last-child div.goods_ticket_content p.watch{
+	position: absolute;
+	bottom: 9px;
+	left: 0px;
+	font:12px/12px "Microsoft YaHei";
+	color: #999;
+}
+div.goods_ticket_item:last-child  div.goods_ticket_content span{
+	color: #4f629f;
+}
+div.goods_ticket_item:last-child div.goods_ticket_content p.watch  span{
+	font: 12px/12px "Microsoft YaHei";
+	vertical-align: top;
+	color: #999;
+	margin-left: 6px;
+}
+div.goods_ticket_item:last-child div.goods_ticket_content p.watch  i{
+	display: inline-block;
+	width: 18px;
+	height: 12px;
+	background: url(../images/second_kill/sprite_sprite_coupon@1x.png) no-repeat;
+	background-position: 0px -48px;
+}
+div.goods_ticket_item:last-child div.goods_ticket_content div.L_side,div.goods_ticket_item:last-child div.goods_ticket_content div.R_side{
+	position: absolute;
+	width: 20px;
+	height: 50px;
+	top: 70px;
+	left: 0px;
+	background: #ddd url(../images/goods_ticket/L_side_B.jpg) center no-repeat;
+	z-index: 10;
+	cursor: pointer;
+	display: none;
+}
+div.goods_ticket_item:hover div.goods_ticket_content div.L_side,div.goods_ticket_item:hover div.goods_ticket_content div.R_side{
+	display: block;
+}
+div.goods_ticket_item:last-child div.goods_ticket_content div.L_side:hover{
+	background: #ddd url(../images/goods_ticket/L_side_R.jpg) center no-repeat;
+}
+div.goods_ticket_item:last-child div.goods_ticket_content div.R_side{
+	left: 370px;
+	right: 0px;
+	background: #ddd url(../images/goods_ticket/R_side_B.jpg) center no-repeat;
+}
+div.goods_ticket_item:last-child div.goods_ticket_content div.R_side:hover{
+	background: #ddd url(../images/goods_ticket/R_side_R.jpg) center no-repeat;
+}

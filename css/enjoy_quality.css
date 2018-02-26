@@ -1,0 +1,254 @@
+div.enjoy_quality{
+	width: 1190px;
+	height: 600px;
+}
+div.enjoy_quality div.title{
+	width: 100%;
+	height: 70px;
+	background: url(../images/enjoy_quality/1.png) repeat-x center;
+}
+div.enjoy_quality div.title h1{
+	font: 25px/70px "Microsoft YaHei";
+	font-weight: lighter;
+	width: 192px;
+	height: 70px;
+	margin: 0px auto;
+	text-align: center;
+	background: #f6f6f6;
+}
+div.enjoy_quality div.content{
+	width: 100%;
+	height: 530px;
+	position: relative;
+}
+div.enjoy_quality div.content div.left{
+	width: 795px;
+	height: 530px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+div.enjoy_quality div.content div.left ul{
+	width: 100%;
+	height: 100%;
+}
+div.enjoy_quality div.left li{
+	float: left;
+	width: 385px;
+	height: 170px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background: #FFF;
+	position: relative;
+	overflow: hidden;
+}
+div.enjoy_quality div.left li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+div.enjoy_quality div.left li a img{
+	position: absolute;
+	width: 400px;
+	top: 0px;
+	left: 1px;
+	z-index: 0;
+	transition: 500ms left;
+}
+div.enjoy_quality div.left li:hover a img{
+	left: -9px;
+}
+div.enjoy_quality div.left li.bottom{
+	margin-bottom: 0px;
+}
+div.enjoy_quality div.left li div.detail{
+	position: absolute;
+	width: 135px;
+	height: 125px;
+	padding-top: 45px;
+	background: #ccc;
+	text-align: center;
+	z-index: 1;
+	opacity: 0.8;
+}
+li#EQ_01 div.detail{
+	background: #72bb90;
+}
+li#EQ_02 div.detail{
+	background: #ddd279;
+}
+li#EQ_03 div.detail{
+	background: #5c5566;
+}
+li#EQ_04 div.detail{
+	background: #498c94;
+}
+li#EQ_05 div.detail{
+	background: #d78e28;
+}
+li#EQ_06 div.detail{
+	background: #866350;
+}
+div.enjoy_quality div.left li div.detail p:first-child{
+	width: 100px;
+	height: 40px;
+	margin: 0px auto;
+	font: 22px/40px arial;
+	color: #fff;
+	border-style: solid none solid none;
+	border-width: 2px 0px;
+	border-color: #fff;
+	margin-bottom:8px;
+}
+div.enjoy_quality div.left li div.detail p:last-child{
+	width: 88px;
+	height: 32px;
+	font: 14px/16px arial;
+	color: #fff;
+	margin: 0px auto;
+	text-align: left;
+}
+div.enjoy_quality div.right{
+	position: absolute;
+	width: 390px;
+	height: 530px;
+	top: 0px;
+	right: 0px;
+}
+div.enjoy_quality div.right div.video{
+	width: 100%;
+	height: 350px;
+	position: relative;
+}
+div.video div.title{
+	position: absolute;
+	width: 100%;
+	height: 38px;
+	background: #000;
+	opacity: 0.6;
+	color: #fff;
+	z-index: 5;
+}
+div.video div.title p{
+	height: 100%;
+	width: 100%;
+	font: 15px/38px arial;
+}
+div.video div.title p span{
+	margin-left: 23px;
+}
+div.video div.title p a{
+	position: absolute;
+	width: 50px;
+	height: 16px;
+	right: 20px;
+	top: 0px;
+	bottom: 0px;
+	margin: auto 0px;
+	font: 12px/16px arial;
+	color: #fff;
+}
+div.video div.title p a i{
+	display: inline-block;
+	height: 16px;
+	width: 15px;
+	background: url(../images/second_kill/sprite_index@1x.png) no-repeat;
+	background-position: -154px -40px;
+	vertical-align: top;
+	line-height: 16px;
+	margin-left: 9px;
+}
+div.video ul{
+	position: absolute;
+	width: 72px;
+	height: 8px;
+	top: 326px;
+	left: 159px;
+}
+div.video ul li{
+	float: left;
+	width: 8px;
+	height: 8px;
+	margin-right: 8px;
+}
+div.video ul li:last-child{
+	margin-right: 0px;
+}
+div.video ul li>span{
+	width: 8px;
+	height: 8px;
+	position: absolute;
+	background: #fff;
+	border-radius: 50%;
+	z-index: 2;
+}
+div.video ul li:hover>span{
+	background: #fd3131; 
+}
+div.video ul li a.images{
+	position: absolute;
+	width: 390px;
+	height: 350px;
+	left: -159px;
+	top: -326px;
+	z-index: -1;
+	text-align: center;
+	display: none;
+}
+div.video ul li a.images i.play{
+	position: absolute;
+	width: 65px;
+	height: 65px;
+	background: #fff;
+	opacity: 0.6;
+	border-radius: 50%;
+	top: 142px;
+	left: 162px;
+	z-index: 4;
+}
+div.video ul li a.images i.play em{
+	
+}
+div.video ul li:first-child a.images{
+	display: block;
+}
+div.video ul li:hover a.images{
+	display: block;
+	z-index: 1;
+}
+a.images img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	left: 0px;
+	top: 0px;
+}
+div.video ul li a.images p{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 267px;
+	width: 100%;
+	height: 16px;
+	margin: 0px auto;
+	color: #fff;
+	font-weight: bold;
+}
+div.video ul li a.images p.detail{
+	top: 287px;
+	font-weight: normal;
+	font: 14px/14px arial;
+}
+div.video ul li a.images p i{
+	display: inline-block;
+	width: 19px;
+	height: 16px;
+	background: url(../images/enjoy_quality/1.jpg) no-repeat;
+	vertical-align: top;
+}
+div.video ul li a.images p span{
+	line-height: 16px;
+	vertical-align: top;
+	margin-left: 4px;
+}

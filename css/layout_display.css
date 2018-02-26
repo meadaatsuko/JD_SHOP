@@ -1,0 +1,1194 @@
+div.content{
+	width: 1190px;
+	margin: 0px auto;
+}
+
+/* 导航栏以及轮播 */
+
+div.layout_display{
+	width: 100%;
+	height: 480px;
+	position: relative;
+}
+
+/* 左侧导航栏 */
+
+div.navigate_02{
+	width: 190px;
+	height: 464px;
+	padding-top: 16px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	background: #6e6568;
+}
+div.navigate_item{
+	font: 14px/28px arial;
+	padding-left: 11px;
+	height: 28px;
+	width: 179px;
+	position: relative;
+	color: #fff;
+}
+div.navigate_item>span{
+	position: relative;
+	z-index: 2;
+	color: #fff;
+	margin-right: 3px;
+}
+div.navigate_item>span a{
+	color: #fff;
+	margin:0px 3px;
+}
+div.navigate_item>span a:first-child{
+	margin-left: 0px;
+}
+div.navigate_item>span a:hover{
+	color: #c81623;
+}
+div.BG_navigate{
+	width: 190px;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: #999395;
+	display: none;
+}
+div.navigate_item:hover div.BG_navigate{
+	display:block;
+}
+div.navigate_second{
+	position: absolute;
+	z-index: 10;
+	top: -16px;
+	left: 190px;
+	padding-top: 21px;
+	width: 1000px;
+	height: 459px;
+	background: #f7f7f7;
+	box-shadow: 2px 0px 5px #d8d8d8;
+	display: none;
+}
+div.Home_Electrical div.navigate_second{
+	height: 510px;
+}
+div.mobile_digital div.navigate_second{
+	top: -44px;
+}
+div.computer div.navigate_second{
+	top: -72px;
+}
+div.kitchen div.navigate_second{
+	top: -100px;
+	height: 511px;
+}
+div.clothes div.navigate_second{
+	top: -128px;
+	height: 506px;
+}
+div.pets div.navigate_second{
+	top: -156px;
+}
+div.woman_shoes div.navigate_second{
+	top: -184px;
+}
+div.man_shoes div.navigate_second{
+	top: -212px;
+	height: 510px;
+}
+div.car div.navigate_second{
+	top: -240px;
+	height: 473px;
+}
+div.navigate_item:hover div.navigate_second{
+	display: block;
+}
+div.second_menu_title{
+	padding-left: 21px;
+	height: 24px;
+}
+div.second_menu_title span{
+	display: inline-block;
+	font: 12px/24px arial;
+	height: 24px;
+	padding-left: 9px;
+	padding-right: 13px;
+	background: #6e6568;
+	margin-right: 10px;
+	vertical-align: top;
+}
+div.second_menu_title span:hover{
+	background: #5c5251;
+}
+div.second_menu_title span a{
+	color: #fff;
+	display: block;
+	width: 100%;
+	height: 100%;
+	white-space: pre;
+}
+div.second_menu_content_left{
+	padding-left: 25px;
+	height: 445px;
+	width: 776px;
+	margin-top: 20px;
+}
+div.second_menu_good_list{
+	height: 27px;
+	width: 776px;
+	margin-bottom: 10px;
+	position: relative;
+}
+div.navigate_second div.four_line{
+	height: 99px;
+}
+div.navigate_second div.four_line div.second_menu_good_list_right{
+	height: 98px;
+}
+div.navigate_second div.three_line{
+	height: 74px;
+}
+div.navigate_second div.three_line div.second_menu_good_list_right{
+	height: 73px;
+}
+div.navigate_second div.two-line{
+	height: 51px;
+}
+div.navigate_second div.two-line div.second_menu_good_list_right{
+	height: 50px;
+}
+div.second_menu_good_list h3{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font: 12px/17px arial;
+	height: 17px;
+	width: 63px;
+	text-align: right;
+	margin-right: 13px;
+	font-family: "Microsoft YaHei";
+}
+div.second_menu_good_list h3 a{
+	color: #666;
+	font-weight: 700;
+	white-space: pre;
+}
+div.second_menu_good_list h3 a:hover{
+	color: #c81623;
+}
+div.second_menu_good_list div.second_menu_good_list_right{
+	position: absolute;
+	left: 76px;
+	top: 0px;
+	width: 700px;
+	height: 26px;
+	border-bottom: 1px #eee solid;
+}
+div.second_menu_good_list:last-child div.second_menu_good_list_right{
+	border-bottom: none;
+}
+div.second_menu_good_list span{
+	float: left;
+	font: 12px/16px arial;
+	border-left: 1px solid #e0e0e0;
+	padding: 0px 10px;
+	height: 16px;
+	margin-bottom: 8px;
+}
+div.second_menu_good_list span.spec_good{
+	display: inline-block;
+	height: 14px;
+	border:1px dotted #db7078;
+	position: relative;
+	font-weight: 700;
+	background: #f6f0f0;
+	text-align: center;
+	font-family: "Microsoft YaHei";
+	line-height: 14px;
+}
+div.second_menu_good_list span.spec_good a{
+	color: #c81623;
+	vertical-align: top;
+}
+div.second_menu_good_list span.spec_good i{
+	position: absolute;
+	width: 5px;
+	height: 16px;
+	top: -1px;
+	left: -1px;
+	background: url(../images/second_menu/cate_highlight.png) no-repeat;
+}
+div.second_menu_good_list span.spec_good i:last-child{
+	right: -1px;
+	left: auto;
+	background-position: -5px 0px;
+}
+div.second_menu_good_list span a{
+	color: #666;
+}
+div.second_menu_good_list span a:hover{
+	color: #c81623;
+}
+div.second_menu_content_right{
+	width: 168px;
+	height: 423px;
+	position: absolute;
+	top: 21px;
+	right: 16px;
+}
+ span.spec_good{
+
+}
+div.second_menu_logo{
+	width: 100%;
+	height: 134px;
+	margin-bottom: 1px;
+}
+div.second_menu_logo:first-child a{
+	float: left;
+	width: 83px;
+	height: 35px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+}
+div.second_menu_logo a{
+	display: block;
+	width: 168px;
+	height: 134px;
+}
+div.second_menu_logo a.right{
+	margin-right: 0px;
+}
+div.second_menu_logo:first-child{
+	width: 167px;
+	height: 143px;
+	position: relative;
+	left: 1px;
+	margin-bottom: 10px;
+}
+
+/* 中间轮播 */
+
+div.layout_display_center{
+	width: 790px;
+	height: 480px;
+	position: absolute;
+	left: 200px;
+	top: 0px;
+}
+div.layout_display_center div.banner{
+	width: 100%;
+	height: 340px;
+	margin-bottom: 10px;
+	position: relative;
+}
+div.banner ul{
+	width: 166px;
+	height: 12px;
+	background: rgba(255,255,255,0.5);
+	position:absolute;
+	padding: 4px 8px;
+	bottom: 20px;
+	left: 0px;
+	right: 0px;
+	margin: 0px auto;
+	border-radius: 10px;
+}
+div.banner ul li{
+	float: left;
+	width: 12px;
+	height: 12px;
+	margin-right: 10px;
+}
+div.banner ul li:last-child{
+	margin-right: 0px;
+}
+div.banner ul li span{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	border-radius: 6px;
+	position: relative;
+	z-index: 5;
+
+	transition: 300ms background;
+}
+div.banner ul li:hover span{
+	background: #db192a;
+}
+div.banner ul li span a{
+	display: block;
+	height: 100%;
+}
+div.banner ul li a.banner{
+	position: absolute;
+	width: 790px;
+	height: 340px;
+	top: -300px;
+	left: -304px;
+	z-index: -1;
+	display: none;
+}
+div.banner ul li:hover a.banner{
+	display: block;
+	z-index: 2;
+}
+div.banner ul li:first-child a.banner{
+	display: block;
+}
+div.banner ul li a.banner{
+	width: 790px;
+	height: 340px;
+}
+div.banner div.banner_side{
+	width: 30px;
+	height: 60px;
+	position: absolute;
+	left: 0px;
+	top: 140px;
+	background-color: rgba(0,0,0,0.2);
+	background-image: url(../images/banner/trangle_L.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 8px 14px;
+	display: none;
+	z-index: 11;
+}
+div.banner div.banner_side:hover{
+	background-color: rgba(0,0,0,0.8);
+}
+div.banner:hover div.banner_side{
+	display: block;
+}
+div.banner div.banner_side:first-child{
+	right: 0px;
+	left: auto;
+	background-image: url(../images/banner/trangle_R.png);
+}
+div.banner div.banner_side a{
+	display: block;
+	width: 30px;
+	height: 60px;
+}
+
+/* 下面广告 */
+
+div.layout_display_center_bottom{
+	width: 100%;
+	height: 130px;
+}
+div.layout_display_adv{
+	width: 390px;
+	height: 100%;
+	float: left;
+}
+div.layout_display_adv:first-child{
+	margin-right: 10px;
+}
+div.layout_display_adv a{
+	display: block;
+	height: 130px;
+}
+
+/* 右侧 */
+
+div.layout_display_right{
+	width: 190px;
+	height: 480px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	background:#fff;
+}
+div.layout_display_right div.login{
+	height: 100px;
+	width: 100%;
+	padding-top: 15px;
+	font: 12px/23px arial;
+	border-bottom: 1px solid #e6e6e6;
+}
+div.layout_display_right div.login div.login_top{
+	height: 50px;
+	width: 152px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+div.login div.login_top>a{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 9px;
+}
+div.login div.login_top div.img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 2px solid #c9a65b;
+	padding: 3px;
+	overflow: hidden;
+}
+div.login_top div.img i{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-image: url(../images/good_display_right/no_login.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+div.login div.login_top p{
+	color: #666;
+	font: 12px/23px arial;
+	float: left;
+}
+div.login div.login_top p:last-child{
+	font: 12px/18px arial;
+}
+div.login div.login_top p:last-child a{
+	color: #666;
+}
+div.login div.login_top p:last-child a:hover{
+	color: #c81623;
+}
+div.login div.login_top p:last-child span:last-child{
+	margin-left: 3px;
+}
+div.login div.button{
+	width: 158px;
+	margin-left: 15px;
+}
+div.button a{
+	display: inline-block;
+	width: 70px;
+	height: 20px;
+	border:2px solid #e01222;
+	background:#fff;
+	color: #e01222;
+	line-height: 20px;
+	font-size: 12px;
+	text-align: center;
+}
+div.button a:hover{
+	color: #fff;
+	background-color: #e01222;
+}
+div.button a:first-child{
+	margin-right: 10px;
+}
+div.layout_display_right div.center{
+	height: 154px;
+	position: relative;
+	border-bottom: 1px solid #e7e7e7;
+}
+div.center div.tap{
+	width: 38px;
+	height: 20px;
+	position: absolute;
+	left: 13px;
+	top: 10px;
+}
+div.center i.red_line{
+	position: absolute;
+	width: 28px;
+	height: 2px;
+	background: #db192b;
+	top: 25px;
+	left: 12px;
+	z-index: 5;
+	transition: 300ms left;
+}
+div.center div.poster:hover + i{
+	left: 65px;
+}
+div.center div.poster{
+	left: 67px;
+	z-index: 0;
+}
+div.center i{
+	position: absolute;
+	width: 1px;
+	height: 16px;
+	background:#dfe0e1;
+	left: 51px;
+	top: 7px;
+}
+div.tap span{
+	font:12px/12px arial;
+	margin-right: 10px;
+	border-bottom: 2px solid transparent;
+	position: relative;
+	vertical-align: top;
+	z-index: 5;
+}
+div.tap a{
+	color: #666;
+	font:12px/12px arial;
+	vertical-align: top;
+}
+div.tap a:hover{
+	color: #c81623;
+}
+div.center>span{
+	position: absolute;
+	top: 9px;
+	right: 15px;
+	font-size: 12px;
+	line-height: 12px;
+	height: 12px;
+	width: 2em;
+}
+div.center>span a{
+	color: #666;
+}
+div.center>span a:hover{
+	color: #c81623;
+}
+div.tap div.detail{
+	font-size: 12px;
+	line-height: 24px;
+	width: 162px;
+	height: 112px;
+	color: #666;
+	padding-top: 15px;
+	background-color: #fff;
+	border-top: 1px solid #e6e6e6;
+	display: none;
+	z-index: 0;
+	position: absolute;
+	left: 0px;
+	top: 16px;
+}
+div.poster:hover div.detail{
+	display: block;
+}
+div.sale div.detail{
+	display: block;
+}
+div.poster div.detail{
+	left: -54px;
+}
+div.tap div.detail p{
+	margin: 0px;
+	line-height: 24px;
+}
+div.bottom{
+	height: 209px;
+	position: relative;
+	overflow: hidden;
+}
+div.bottom ul li{
+	width: 48px;
+	height: 70px;
+	float: left;
+	font:12px/12px arial;
+	text-align: center;
+}
+div.bottom ul li>a{
+	display: block;
+	width: 48px;
+	height: 70px;
+}
+div.bottom ul li.right>a{
+	width: 46px;
+}
+div.bottom ul li.right{
+	width: 46px;
+	border-right: none;
+}
+div.bottom ul li div.bottom_item{
+	height: 55px;
+	padding-top: 14px;
+	border-bottom: 1px solid #e7e7e7;
+	border-right: 1px solid #e7e7e7;
+	position: relative;
+}
+div.bottom ul li.right div.bottom_item{
+	border-right: none;
+}
+div.bottom ul li div.bottom_item i{
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin:0px auto;
+	margin-bottom: 8px;
+}
+div.bottom ul li div.bottom_item span{
+	color: #666;
+}
+div.bottom ul li div.bottom_item span.spec_sale{
+	position: absolute;
+	width: 13px;
+	height: 16px;
+	top: 0px;
+	right: 0px;
+}
+div.bottom ul li div.bottom_item span.spec_sale i{
+	display: block;
+	width: 13px;
+	height:13px;
+	font-style: normal;
+	margin: 0px;
+	background-color: #e01121;
+	color: #fff;
+}
+div.bottom ul li:hover div.bottom_item span{
+	color: #c81623;
+}
+div.bottom ul li div.bottom_item span.spec_sale i:last-child{
+	width: 0px;
+	height: 0px;
+	border:6.5px solid transparent;
+	border-bottom-width: 2px;
+	border-color: #e01121 #e01121 #fff #e01121;
+	border-top: none;
+}
+div.bottom_item i#mobile_charge{
+	background-image: url(../images/good_display_right/sprite_fs@1x.png);
+	background-repeat: no-repeat;
+	background-position: 0px -90px;
+}
+div.bottom_item i#plane_ticket{
+	background-image: url(../images/good_display_right/sprite_fs@1x.png);
+	background-repeat: no-repeat;
+	background-position: 0px -44px;
+}
+div.bottom_item i#hotel{
+	background-image: url(../images/good_display_right/sprite_fs@1x.png);
+	background-repeat: no-repeat;
+	background-position: -44px -88px;
+}
+div.bottom_item i#game{
+	background-image: url(../images/good_display_right/sprite_fs@1x.png);
+	background-repeat: no-repeat;
+	background-position: -88px 0px;
+}
+div.bottom_item i#company{
+	background-image: url(../images/good_display_right/sprite_fs@1x.png);
+	background-repeat: no-repeat;
+	background-position: -88px -44px;
+}
+div.bottom_item i#oil_card{
+	background-image: url(../images/good_display_right/sprite_fs@1x.png);
+	background-repeat: no-repeat;
+	background-position: -0px -0px;
+}
+div.bottom_item i#movie_ticket{
+	background-image: url(../images/good_display_right/sprite_fs@1x.png);
+	background-repeat: no-repeat;
+	background-position: -44px -44px;
+}
+div.bottom_item i#train_ticket{
+	background-image: url(../images/good_display_right/sprite_fs@1x.png);
+	background-repeat: no-repeat;
+	background-position: -88px -88px;
+}
+div.bottom_item i#people_cash{
+	background-image: url(../images/good_display_right/sprite_fs@1x.png);
+	background-repeat: no-repeat;
+	background-position: -132px -0px;
+}
+div.bottom_item i#manage_money{
+	background-image: url(../images/good_display_right/sprite_fs@1x.png);
+	background-repeat: no-repeat;
+	background-position: -132px -44px;
+}
+div.bottom_item i#gift{
+	background-image: url(../images/good_display_right/sprite_fs@1x.png);
+	background-repeat: no-repeat;
+	background-position: -132px -88px;
+}
+div.bottom_item i#free_buy{
+	background-image: url(../images/good_display_right/sprite_fs@1x.png);
+	background-repeat: no-repeat;
+	background-position: -44px -0px;
+}
+
+div.bottom div.bottom_second_menu{
+	width: 48px;
+	height: 22px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	transition: top 200ms;
+	border-top: solid 2px #fff;
+	top: 210px;
+}
+div.bottom li:hover div.bottom_second_menu{
+	top: 0px;
+}
+div.bottom div.bottom_second_menu:hover{
+	border-top-color: #e01121;
+}
+div.bottom div.plane_ticket_second{
+	left: 48px;
+}
+div.bottom div.hotel_second{
+	left: 96px;
+}
+div.bottom div.game_second{
+	left: 144px;
+}
+div.bottom div.bottom_second_menu>span{
+	position: absolute;
+	width: 47px;
+	height: 22px;
+	top: 0px;
+	left: 0px;
+	background-color: #fff;
+	border-right: 1px solid #e7e7e7;
+
+	font-size: 12px;
+	line-height: 22px;
+	text-align: center;
+	z-index: 1;
+}
+div.bottom div.bottom_second_menu>span a{
+	color: #666;
+}
+div.bottom div.bottom_second_menu:hover>span a{
+	color: #e01121;
+}
+div.bottom div.mobile_charge_second div.detail{
+	display: block;
+}
+div.bottom div.bottom_second_menu div.detail{
+	position: absolute;
+	z-index: 0;
+	width: 190px;
+	height: 170px;
+	background-color: #fff;
+	top: 22px;
+	left: 0px;
+	padding-top: 15px;
+}
+div.bottom div.plane_ticket_second div.detail{
+	left: -48px;
+}
+div.bottom div.hotel_second div.detail{
+	left: -96px;
+}
+div.bottom div.game_second div.detail{
+	left: -144px;
+}
+div.bottom_second_menu div.detail_taps{
+	position: absolute;
+	display: inline-block;
+}
+div.bottom_second_menu div.detail_taps div{
+	z-index: -1;
+}
+div.bottom_second_menu div.gprs_charge{
+	left: 66px;
+}
+div.bottom_second_menu div.gprs_charge div{
+	left: -66px;
+}
+div.plane_ticket_second div.HK_Tebei{
+	left: 60px;
+}
+div.bottom_second_menu div.set_meal{
+	left: 124px;
+}
+div.plane_ticket_second div.spec_activity{
+	left: 130px;
+}
+div.hotel_second div.spec_activity{
+	left: 101px;
+}
+div.game_second div.QQ{
+	left: 64px;
+}
+div.game_second div.QQ div{
+	left: -64px;
+}
+div.game_second div.web_game{
+	left: 112px;
+}
+div.bottom_second_menu div.set_meal div{
+	left: -124px;
+}
+div.bottom_second_menu div.detail_taps:first-child{
+	top: 15px;
+	left: 8px;
+}
+div.plane_ticket_second div.detail_taps:first-child{
+	left: 5px;
+}
+div.hotel_second div.detail_taps:first-child{
+	left: 9px;
+}
+div.game_second div.detail_taps:first-child{
+	left: 10px;
+}
+div.bottom_second_menu div.detail_taps>a{
+	line-height: 18px;
+	font-size: 12px;
+	background-color: transparent;
+	padding: 2px 2px;
+	display: inline-block;
+	white-space: pre;
+}
+
+div.plane_ticket_second div.detail_taps>a{
+	padding: 0px;
+}
+div.hotel_second div.detail_taps>a{
+	padding:0px 11px;
+}
+div.hotel_second div.sale_activity>a{
+	padding: 0px 14px;
+	padding-right: 15px;
+}
+div.game_second div.point_card>a{
+	padding:0px;
+	padding-left: 9px;
+	padding-right: 10px;
+}
+div.game_second div.QQ>a{
+	padding: 0px;
+	padding-left: 9px;
+	padding-right: 10px;
+}
+div.game_second div.web_game>a{
+	padding: 0px;
+	padding-left: 10px;
+	padding-right: 9px;
+}
+div.bottom_second_menu div.detail_taps>i{
+	display: none;
+}
+div.bottom_second_menu div.detail_taps:hover>a{
+	background-color: #e01222;
+}
+div.bottom_second_menu div.detail_taps:hover>i{
+	display: block;
+}
+div.bottom_second_menu div.detail_taps>a{
+	color: #666;
+}
+div.plane_ticket_second div.detail_taps>a{
+	padding: 2px 2px;	
+}
+div.bottom_second_menu div.detail_taps:hover>a{
+	color: #fff;
+}
+div.detail_taps>i{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border:5px solid transparent;
+	border-left-color: #fff;
+	border-right-color: #fff;
+	border-bottom:2px solid #fff;
+	background-color: #e01222;
+	left: 43%;
+	bottom: -7px;
+	z-index: 3;
+}
+div.detail_taps div{
+	width: 190px;
+	height: 139px;
+	padding-top: 46px;
+	background: #fff;
+	position: absolute;
+	left: -8px;
+	top: -15px;
+	z-index: 2;
+	display: none;
+	text-align: left;
+}
+div.nation_ticket div{
+	left: -5px;
+}
+div.nation_HK div{
+	left: -9px;
+}
+div.HK_Tebei div{
+	left: -60px;
+}
+div.spec_activity div{
+	left: -130px;
+}
+div.hotel_second div.spec_activity div{
+	left: -95px;
+}
+div.sale_activity div{
+	left: -101px;
+}
+div.point_card div{
+	left: -10px;
+}
+div.web_game div{
+	left: -112px;
+}
+div.detail_taps:first-child div{
+	display: block;
+}
+div.detail_taps:hover div{
+	display: block;
+}
+div.detail_taps div p{
+	font-size: 12px;
+	line-height: 22px;
+	color: #666;
+	text-align: left;
+	height: 22px;
+}
+
+div.detail_taps div p:first-child{
+	margin-bottom: 11px;
+}
+div.detail_taps div p span{
+	margin-left: 16px;
+	margin-right: 6px;
+	font-size: 12px;
+	vertical-align: top;
+}
+div.game_second div p{
+	height: 23px;
+}
+div.game_second div p span{
+	margin-left: 10px;
+	margin-right: 5px;
+}
+div.game_second div.detail_taps div p input[type="text"]{
+	padding: 0px;
+	width: 46px;
+	padding-top: 4px;
+	padding-bottom: 3px;
+	padding-left: 4px;
+}
+div.game_second div p.radio_input{
+	height: 15px;
+	font-size: 12px;
+	line-height: 14px;
+	margin-top: 16px;
+}
+div.game_second div p.radio_input span{
+	margin-left: 3px;
+}
+div.game_second div p.radio_input input[type="radio"]{
+	vertical-align: bottom;
+}
+div.plane_ticket_second div.detail_taps div p{
+	line-height: 12px;
+	margin-bottom: 11px;
+	height: 12px;
+}
+div.bottom_second_menu div.detail_taps div p.input_info{
+	width: 130px;
+	height: 23px;
+	font:12px/12px arial;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	position: relative;
+}
+div.bottom_second_menu div.detail_taps div p.game_info{
+	margin-bottom: 10px;
+}
+div.bottom_second_menu div.detail_taps div p.game_info i{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border: 2.5px solid #000;
+	border-left: solid 2.5px transparent;
+	border-right: solid 2.5px transparent;
+	border-bottom: 1.5px solid transparent;
+	top: 10px;
+	right: 7px;
+}
+div.bottom_second_menu div.detail_taps div p.hote1_info{
+	width: 170px;
+}
+div.bottom_second_menu div.detail_taps div p.game_info{
+	width: 167px;
+}
+div.bottom_second_menu div.detail_taps div p.input_info span{
+	position: absolute;
+	width: 40px;
+	height: 21px;
+	font-size: 12px;
+	line-height: 21px;
+	text-align: center;
+	color: #999;
+	background: #f5f5f5;
+	top: 1px;
+	left: 1px;
+	margin: 0px;
+}
+div.bottom_second_menu div.detail_taps div p.hote1_info span{
+	width: 62px;
+}
+div.bottom_second_menu div.detail_taps div p.input_info input[type="text"]{
+	width: 76px;
+	height: 21px;
+	padding: 0px;
+	padding-left: 52px;
+	border:1px solid #ccc;
+}
+div.bottom_second_menu div.detail_taps div p.hote1_info input[type="text"]{
+	width: 96px;
+	padding-left: 72px;
+}
+div.bottom_second_menu div.detail_taps div p.game_info input[type="text"]{
+	width: 121px;
+	padding-left: 44px;
+}
+div.bottom_second_menu div.detail_taps div p#JSD input[type="text"]{
+	padding: 0px;
+	text-align: center;
+	width: 168px;
+	height: 21px;
+	color: #757575;
+
+}
+div.plane_ticket_second div.detail_taps div p span{
+	margin-left: 6px;
+	vertical-align: top;
+}
+div.detail_taps div p input[type="text"]{
+	display: inline-block;
+	width: 83px;
+	height: 14px;
+	padding: 3px 4px;
+	border:1px solid #e7e7e7;
+	font-size: 12px;
+	outline: none;
+}
+div.detail_taps div p input[type="radio"]{
+	vertical-align: top;
+	margin-left: 13px;
+}
+div.detail_taps div p input#card_password{
+	margin-left: 1px;
+}
+div.detail_taps div p input.wang_fan{
+	margin-left: 18px;
+}
+div.set_meal div p input[type="text"]{
+	letter-spacing: -1px;
+}
+div.set_meal div p input[type="text"]{
+	padding: 3px 0px;
+	width: 88px;
+	color: #000;
+}
+	
+div.detail_taps div p select{
+	height: 22px;
+	width: 53px;
+	border:1px solid #ccc;
+	font-size: 12px;
+	letter-spacing: -0.5px;
+	vertical-align: top;
+}
+div.gprs_charge div p select{
+	width: 53px;
+}
+div.gprs_charge div p select:last-child{
+	margin-left: 4px;
+	width: 71px;
+}
+div.gprs_charge div span.prize{
+	font-size: 12px;
+	line-height:12px;
+	display: block;
+	margin-top: 10px;
+	margin-left: 16px;
+	text-align: left;
+	color: #e01222;
+}
+div.detail_taps div p span.prize{
+	font-size: 12px;
+	line-height: 22px;
+	color: #e01222;
+	margin: 0px;
+	letter-spacing: -0.5px;
+	margin-left: 3px;
+}
+div.detail_taps div p:last-child{
+	height: 14px;
+	margin-top: 14px;
+}
+div.gprs_charge div p:last-child{
+	margin-top: 9px;
+}
+div.set_meal div p:last-child{
+	margin-top: 26px;
+}
+div.detail_taps div p:last-child i{
+	display: inline-block;
+	width: 34px;
+	height: 14px;
+	background: url(../images/banner_right/HOT.jpg) no-repeat;
+	margin-left: 16px;
+	vertical-align: top;
+}
+div.detail_taps div p:last-child a{
+	display: inline;
+	font-size: 12px;
+	line-height: 14px;
+	color: #527cdb;
+	margin-left: 6px;
+	vertical-align: top;
+}
+div.detail_taps div p:last-child a:hover{
+	color: #e01222;
+}
+div.bottom_second_menu div.detail_taps div>a{
+	display: inline-block;
+	width: 85px;
+	height: 25px;
+	color: #fff;
+	font-size: 12px;
+	line-height: 25px;
+	text-align: center;
+	background-color: #e01222;
+	margin-left: 16px;
+	margin-top: 11px;
+}
+div.game_second div.detail_taps div>a{
+	margin-top: 15px;
+	margin-left: 10px;
+	width: 70px;
+}
+div.hotel_second div.detail_taps div>a{
+	margin-left: 10px;
+	margin-top: 0px;
+	width: 70px;
+}
+
+div.plane_ticket_second div.detail_taps div>a{
+	margin-left: 10px;
+	margin-top: 0px;
+	width: 70px;
+	margin-right: 5px;
+}
+div.plane_ticket_second div.detail_taps div a:last-child,div.hotel_second div.detail_taps div a:last-child,div.game_second div.detail_taps div a:last-child{
+	display: inline;
+	margin: 0px;
+	background: transparent;
+	letter-spacing: -0.5px;
+	color: #527cdb;
+}
+div.hotel_second div.detail_taps div a:last-child,div.game_second div.detail_taps div a:last-child{
+	margin-left: 5px;
+}
+div.bottom div.bottom_second_menu div.spec_activity div a{
+	display: inline-block;
+	width: 79px;
+	height: 119px;
+	margin: 0px;
+	margin-left: 10px;
+}
+div.bottom_second_menu div.spec_activity div a img{
+	width: 79px;
+	height: 119px;
+	display: block;
+}

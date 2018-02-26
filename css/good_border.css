@@ -1,0 +1,39 @@
+div.good_border{
+	width: 100%;
+	height: 100px;
+	margin-bottom: 14px;
+}
+div.good_border a{
+	float: left;
+	width: 396px;
+	height: 100px;
+	position: relative;
+}
+div.good_border a:last-child{
+	width: 398px;
+}
+div.good_border a img{
+	position: absolute;
+	display: block;
+	z-index: 0;
+}
+div.good_border span{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	background: #fff;
+	opacity: 0;
+	transition: opacity 100ms;
+}
+div.good_border i{
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	left: 0px;
+	background: #e0e0e0;
+	z-index: -1;
+}
+div.good_border a:hover span{
+	opacity: 0.1;
+}
